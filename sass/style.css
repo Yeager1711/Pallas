@@ -222,7 +222,7 @@ section {
   bottom: 0;
   margin: auto;
   width: 80rem;
-  height: 90%;
+  height: 55rem;
   max-width: 95%;
   background: #fff;
   border-radius: 1rem;
@@ -312,14 +312,14 @@ section {
 
 .model-booking .booking-container form .flex .btn-booking {
   width: 100%;
-  margin-top: 3rem;
+  margin: 5rem 0;
   border-radius: .5rem;
   display: block;
   background: #1490ac;
   color: #ffff;
   font-size: 1.7rem;
   cursor: pointer;
-  padding: 1rem 3rem;
+  padding: 1.5rem 4rem;
   text-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.3);
 }
 
@@ -767,6 +767,42 @@ section {
   }
   .home .slide .content h3 {
     font-size: 5rem;
+  }
+}
+
+@media (max-width: 82rem) {
+  .model-booking .booking-container {
+    max-height: 100%;
+  }
+  .model-booking .booking-container form .flex .inputBox {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 20rem;
+            flex: 1 1 20rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .model-booking .heading {
+    padding: .5rem 0;
+  }
+  .model-booking .booking-container form .flex .inputBox {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 13rem;
+            flex: 1 1 13rem;
+  }
+  .model-booking .booking-container form .flex .btn-booking {
+    width: 100%;
+    border-radius: .5rem;
+    display: block;
+    background: #1490ac;
+    color: #ffff;
+    font-size: 1.7rem;
+    cursor: pointer;
+    padding: 1rem 3rem;
+    text-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.3);
+  }
+  .model-booking .booking-container form .flex .btn-booking:hover {
+    background: #cd9452;
   }
 }
 
