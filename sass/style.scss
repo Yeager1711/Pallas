@@ -671,59 +671,59 @@ section{
  
  }
  
-@media (max-width:82rem){
-    .model-booking{
+// @media (max-width:82rem){
+//     .model-booking{
     
-        .booking-container{
+//         .booking-container{
 
-            form{
-                .flex{
+//             form{
+//                 .flex{
                    
-                    .inputBox{
-                        flex: 1 1 20rem; 
-                    }
-                }
-            }
-        }
-    }  
-}
+//                     .inputBox{
+//                         flex: 1 1 20rem; 
+//                     }
+//                 }
+//             }
+//         }
+//     }  
+// }
 
-@media (max-width:490px){
-    .model-booking{
+// @media (max-width:490px){
+//     .model-booking{
     
-        .heading {
-            padding: .5rem 0;
-        }
-        .booking-container{
+//         .heading {
+//             padding: .5rem 0;
+//         }
+//         .booking-container{
 
-            form{
-                .flex{
+//             form{
+//                 .flex{
                    
-                    .inputBox{
-                        flex: 1 -1 13rem;
-                    }
+//                     .inputBox{
+//                         flex: 1 1 13rem;
+//                     }
 
-                    .btn-booking{
-                        width: 100%;
-                        margin-top: 1rem;
-                        border-radius: .5rem;
-                        display: block;
-                        background: #1490ac;
-                        color: #ffff;
-                        font-size: 1.7rem;
-                        cursor: pointer;
-                        padding: 1rem 3rem;
-                        text-shadow: 0 .5rem 1rem rgba(255,255,255,.3);
+//                     .btn-booking{
+//                         width: 100%;
+//                         margin-top: 1rem;
+//                         border-radius: .5rem;
+//                         display: block;
+//                         background: #1490ac;
+//                         color: #ffff;
+//                         font-size: 1.7rem;
+//                         cursor: pointer;
+//                         padding: 1rem 3rem;
+//                         text-shadow: 0 .5rem 1rem rgba(255,255,255,.3);
                     
-                        &:hover{
-                            background: #cd9452;
-                        }
-                    }
-                }
-            }
-        }
-    }  
-}
+//                         &:hover{
+//                             background: #cd9452;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }  
+// }
  
  @media (max-width:450px){
  
