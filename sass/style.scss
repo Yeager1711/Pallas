@@ -186,7 +186,7 @@ section{
         right: 0;
         bottom: 0;
         margin: auto;
-        width: 110rem;
+        width: 80rem;
         height: 50rem;
         max-height: 100%;
         max-width: 95%;
@@ -215,10 +215,11 @@ section{
             .flex{
                 display: flex;
                 flex-wrap: wrap;
-                gap: 2rem;
+                gap: 1.5rem;
 
                 .inputBox{
                     flex: 1 1 35rem;
+                    width: 100%;
 
                     span{
                         display: block;
@@ -690,13 +691,16 @@ section{
 @media (max-width:490px){
     .model-booking{
     
+        .heading {
+            padding: .5rem 0;
+        }
         .booking-container{
 
             form{
                 .flex{
                    
                     .inputBox{
-                        flex: 1 1 11rem;
+                        flex: 1 -1 13rem;
                     }
 
                     .btn-booking{
